@@ -15,7 +15,7 @@ build_spec = 'Workspace Objects'
 [package]
 type = 'nipkg'
 name = 'radio-style-workspace-object-{veristand_version}'
-dev_xml_path = ''
+dev_xml_path = 'Source\Ignore.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]
