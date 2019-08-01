@@ -1,7 +1,7 @@
-CAN-Frame-Protection-Custom-Device
+Radio-Style-Workspace-Objects
 ===================
 
-The CAN Frame Protection addon allows the user to easily select data channels for calculating a CRC or checksum.  It creates and maps rolling counters and CRC/checksum channels to selected outgoing signals.
+A workspace object that links to a channel. The object allows the user to define strings that link to channel values. If that channel already has a dictionary, it will auto-import it.
 
 ### LabVIEW Version ###
 
@@ -9,35 +9,19 @@ LabVIEW 2015 SP1.
 
 ### Built Availability ###
 
-https://github.com/NIVeriStandAdd-Ons/CAN-Frame-Protection-Custom-Device/releases
+
 
 ### Built Dependencies ###
 
-NI XNET 15.5 or later
+
 
 ### Quality, Limitations ###
 
 IP has been tested by developer. It meets VeriStand addon coding best practices. It is not currently widely used. 
 
-This addon does not have all CRC/Checksum options implemented.
-
-This addon shouldn't link to channels that are in an inline custom device (addon).
-
 ### Source Dependencies ###
 
-NI XNET 15.5 or later
 
-VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
-
-VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
-
-VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
-
-HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
-
-SubModules:
-
-Frame Protection Support (https://github.com/NIVeriStandAdd-Ons/Frame-Protection-Support)
 
 ### License ###
 
