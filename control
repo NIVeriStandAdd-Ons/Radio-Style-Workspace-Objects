@@ -1,0 +1,15 @@
+Package: radio-style-workspace-object-{veristand_version}
+Version: {nipkg_version}
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  A workspace object that links to a channel. The object allows the user to define strings that link to channel values. If that channel already has a dictionary, it will auto-import it.
+XB-Eula:  
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: 1.0
+XB-DisplayName: Radio Style Workspace Objects for VeriStand {veristand_version}
+Depends: 

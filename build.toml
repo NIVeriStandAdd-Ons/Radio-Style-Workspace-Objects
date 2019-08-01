@@ -1,0 +1,27 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\display templates\radio'
+
+[projects.cd]
+path = 'Source\Ring Workspace Objects.lvproj'
+
+[[build.steps]]
+name = 'Radio Workspace Object'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Objects'
+
+[package]
+type = 'nipkg'
+name = 'radio-style-workspace-object-{veristand_version}'
+dev_xml_path = ''
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2015_release_branches = ["master",]
+2016_release_branches = ["master",]
+2017_release_branches = ["master",]
+2018_release_branches = ["master",]
